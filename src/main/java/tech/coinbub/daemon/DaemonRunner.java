@@ -132,6 +132,14 @@ public class DaemonRunner<T> {
         this.listener = listener;
     }
 
+    public T getRawInterface() {
+        return iface;
+    }
+
+    public Normalized<T> getNormalizedInterface() {
+        return normalized;
+    }
+
     //
     // Helpers
     //
